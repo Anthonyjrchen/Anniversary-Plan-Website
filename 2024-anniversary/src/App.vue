@@ -1,17 +1,18 @@
 <script setup>
-  import { RouterView } from 'vue-router'
+  import { RouterLink,RouterView } from 'vue-router'
   import HelloWorld from './components/HelloWorld.vue'
- 
+  import IconHeart from './components/icons/IconHeart.vue';
 
 </script>
 
-<template>
+<template class="wrap">
   <div class="wrap">
+    
     <div class="content">
         <HelloWorld msg="We're here now <3" />
     </div>
     <RouterView />
-  </div>
+  </div> 
 </template>
 
 <style scoped>
@@ -21,9 +22,9 @@
 
 .wrap:before {
   content:"";
-  position:absolute;
-  min-height:100vh;
+  position:fixed;
   min-width:100vw;
+  min-height:100vh;
   background-image: url('./assets/dimsumplace.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -31,6 +32,10 @@
   background-attachment: fixed;
   opacity:0.5;
   
+}
+
+.btn{
+  position:absolute;
 }
 
 .content{

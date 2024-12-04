@@ -1,21 +1,8 @@
+<script setup>
+import Board from '../components/year1board.vue'
+</script>
 <template>
-  <div class="content">
-    <div class="artboard phone-5">
-    asdasd
-    </div>
-  </div>
-  
+  <Board />
 </template>
 
-<style scoped>
-.content {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-}
 
-.artboard {
-  color:white;
-  background-color: aqua;
-}
-</style>
