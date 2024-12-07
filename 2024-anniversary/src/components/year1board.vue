@@ -121,7 +121,6 @@ import HeartIcon from '../components/icons/IconHeart.vue'
 .artboard {
   color:white;
   background-color: rgb(40, 43, 43);
-  /* opacity: 0.7; */
   border-radius: 25px;
   padding:10px;
   display: flex;

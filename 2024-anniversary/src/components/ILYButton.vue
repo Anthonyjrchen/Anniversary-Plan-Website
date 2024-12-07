@@ -3,12 +3,13 @@ import { ref, Transition} from 'vue'
 import Chat from '../components/chat.vue'
 
 const button_text = ref(["Click to say 'I love you!'","Click to say 'I love you most!'","Click to say 'I love you mostest!'","Mhmmm"])
-const show = ref(false)
+var show = ref(false)
 var IsChatDone = ref(false)
 
 function receiveEmit(){
     IsChatDone=true
     console.log("ischatdone? = " + IsChatDone) 
+    document.getElementById("review_button").classList.remove("hidden")
 }
 </script>
 
@@ -30,11 +31,9 @@ function receiveEmit(){
                 </div>
             </div>
         </Transition>
-        <Transition>
-            <button class="btn btn-accent" v-if="IsChatDone==true">
-                <RouterLink to="/year1">Let's review our years </RouterLink>
-            </button>            
-        </Transition>
+        <button id="review_button" class="btn btn-accent hidden">
+            <RouterLink to="/year1">Let's review our years </RouterLink>
+        </button>         
         <RouterView />
     </div>
 </template>
@@ -54,23 +53,3 @@ function receiveEmit(){
     opacity: 0;
     }
 </style>
-
-
-<!-- <Transition>
-            <button v-if="count<3" id="lovebutton" class="center btn btn-accent" @click="if(count<=2)count++; ">{{ button_text[count] }}</button>
-        </Transition>
-        <Transition>
-            <h1 v-if="count==1" class="green">I love you more</h1>
-        </Transition>
-        <Transition>
-            <h1 v-if="count==2" class="green">I love you more than most</h1>
-        </Transition>        
-        <Transition>
-            <button class="btn btn-accent" v-if="count==3">
-                <RouterLink to="/year1">Let's review our years </RouterLink>
-            </button>            
-        </Transition>
-        <Transition>
-            <h1 v-if="count==3" class="green">Sorry but I love you more than mostest hehe</h1>
-        </Transition>
-        <RouterView /> -->

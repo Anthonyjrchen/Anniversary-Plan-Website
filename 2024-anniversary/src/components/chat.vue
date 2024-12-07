@@ -54,6 +54,5 @@ function done() {
             </div>
         </Transition>
     </div>
-    <div  id="chat_button"  class="btn btn-accent btn-wide" @click="$emit('done')" >{{button_text[button_text_num]}}</div>
+    <div  id="chat_button"  class="btn btn-accent btn-wide" @click="if(count<5){count++;}else{count++;button_text_num++; turnOffButton();$emit('done')} " >{{button_text[button_text_num]}}</div>
 </template>
-<!-- if(count<5){count++;}else{count++;button_text_num++; turnOffButton();} -->

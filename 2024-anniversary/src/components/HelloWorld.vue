@@ -1,17 +1,22 @@
 <script setup>
-defineProps({
-  msg: {
-    type: String,
-    required: true,
-  },
-})
+  import Stopwatch from './stopwatch.vue';
+  defineProps({
+    msg: {
+      type: String,
+      required: true,
+    },
+  })
+
+  
 </script>
 
 <template>
   <div class="greetings">
-    <h1>{{ msg }}</h1>
-    <div class="custom header">
-      Three years have never flew past so fast 
+    <div class="grid">
+      <h1>{{ msg }}</h1>
+      <div class= "custom header">
+      <Stopwatch />
+    </div>
     </div>
   </div>
 </template>
@@ -26,10 +31,17 @@ h1 {
 
 .custom.header {
   font-size: 1.4rem;
+
 }
 
 .greetings {
   text-align: center;
   color: white;
+}
+
+.grid {
+  display: grid;
+  justify-content: center;
+  align-items: center;
 }
 </style>

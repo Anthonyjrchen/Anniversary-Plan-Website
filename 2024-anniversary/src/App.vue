@@ -4,10 +4,9 @@
   import IconHeart from './components/icons/IconHeart.vue';
 
 </script>
-
+<!-- MAYBE ADD "HAPPY ANNIVERSARY" LANDING PAGE TRANSITION COVER -->
 <template class="wrap">
   <div class="wrap">
-    
     <div class="content">
         <HelloWorld msg="We're here now <3" />
     </div>
