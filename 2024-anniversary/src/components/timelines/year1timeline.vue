@@ -3,9 +3,15 @@
     import Bookmark2 from '../icons/bookmark2.vue'
     import Card from '../timelines/card.vue'
     import Card2 from'../timelines/card2.vue'
+    import { watch } from 'vue'
+    import { useRoute } from 'vue-router'
     let observer
-    
-    window.addEventListener("load",(event)=>{init_observer();},false);
+
+    console.log(useRoute().fullPath)
+    if (useRoute().fullPath=="/year1"){
+        setTimeout(init_observer,500)
+    }
+    // window.addEventListener("DOMContentLoaded",(event)=>{init_observer();},false);
 
     function init_observer() {
         let options = {
@@ -36,7 +42,6 @@
 
 </script>
 <template>
-    <!-- <div class="btn" @click="init_observer()">Initialize Observer</div> -->
     <div class="timelineWrap">
         <ul class="timeline timeline-snap-icon timeline-vertical"> 
             <li>
@@ -155,6 +160,11 @@
   to { transform:scaleY(1); opacity: 1;}
 }
 
+@keyframes appear {
+    from { opacity:0; }
+    to { opacity:1; }
+}
+
 .scroll-animate.in-view {
     animation: grow-progress 1s;
     animation-fill-mode: forwards;
@@ -163,6 +173,11 @@
 .bookmark.in-view {
     animation: selected 0.35s;
     animation-delay: 0.75s;
+    animation-fill-mode: forwards;
+}
+
+.timelineWrap {
+    animation:appear 1s;
     animation-fill-mode: forwards;
 }
 </style>
