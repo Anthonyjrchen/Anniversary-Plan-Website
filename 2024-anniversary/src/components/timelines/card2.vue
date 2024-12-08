@@ -18,7 +18,7 @@
             <div class="card content" style="padding:10px">
                 <time class="text-lg font-mono italic">{{ date }}</time>
                 <div class="text-xl font-black">{{ title }}</div>
-                <div class="text-lg">{{ msg }} + {{ imgName }}</div>
+                <div class="text-lg">{{ msg }}</div>
             </div>
         </div>
     </div>

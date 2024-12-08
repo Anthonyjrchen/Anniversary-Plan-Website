@@ -65,8 +65,7 @@
                 </div>
             </li>
             <li>
-                
-                <Card2 date="29/12/2021" title="My First Favourite Photo of Us" msg="You have no idea how nervous I was to hug you like this :3" imgName="sunpeaks.jpg" />
+                <Card date="01/01/2022" title="Lil' Kiss Under the Mistletoe" msg="I can't lie, leading up to this point I was so nervous about kissing you. It was honestly the best kiss I have ever had <3 ALSO, I love how we are representing shorts gang here :D" imgName="undertree.jpg" />
                 <div class="initial-wrap" style="margin: 30px;">
                     <div class="scroll-wrap">
                         <div class="scroll-base"></div>
@@ -76,28 +75,7 @@
                 </div>
             </li>
             <li>
-                <Card date="23/12/2021" title="My Princess" msg="No way you really made me carry you on the FIRST day HAHAHAH" imgName="princesscarry-1.jpg" />
-                <div class="initial-wrap" style="margin: 30px;">
-                    <div class="scroll-wrap">
-                        <div class="scroll-base"></div>
-                        <div class="scroll-animate animate"></div>
-                    </div>
-                    <Bookmark class="bookmark" style="margin:0;" />
-                </div>
-            </li>
-            
-            <li>
-                <Card date="23/12/2021" title="My Princess" msg="No way you really made me carry you on the FIRST day HAHAHAH" imgName="princesscarry-1.jpg" />
-                <div class="initial-wrap" style="margin: 30px;">
-                    <div class="scroll-wrap">
-                        <div class="scroll-base"></div>
-                        <div class="scroll-animate animate"></div>
-                    </div>
-                    <Bookmark class="bookmark" style="margin:0;" />
-                </div>
-            </li>
-            <li>
-                <Card2 date="29/12/2021" title="My First Favourite Photo of Us" msg="You have no idea how nervous I was to hug you like this :3" imgName="sunpeaks.jpg" />
+                <Card2 date="14/01/2022" title="My Jaw Touched the ground" msg="Do I even need to say anything..." imgName="mirror-selfie1.jpg" />
                 <div class="initial-wrap" style="margin: 30px;">
                     <div class="scroll-wrap">
                         <div class="scroll-base"></div>
