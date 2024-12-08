@@ -19,7 +19,7 @@ function done() {
         <Transition>
             <div class="chat chat-end" v-if="count>0">
                 <DanaPFP />
-                <div class="chat-bubble">Baby I seriously love you</div>
+                <div class="chat-bubble">Baby I really really love you</div>
             </div>
         </Transition>
         

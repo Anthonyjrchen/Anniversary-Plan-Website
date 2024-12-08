@@ -15,7 +15,7 @@
 <template>
     <div class="timeline-end mb-14">
         <div class="card glass w-196">
-            <div class="card content">
+            <div class="card content" style="padding:10px">
                 <time class="text-lg font-mono italic">{{ date }}</time>
                 <div class="text-xl font-black">{{ title }}</div>
                 <div class="text-lg">{{ msg }} + {{ imgName }}</div>
