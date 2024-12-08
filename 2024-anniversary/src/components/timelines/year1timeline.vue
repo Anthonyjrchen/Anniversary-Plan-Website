@@ -46,7 +46,7 @@
                         <div class="scroll-base"></div>
                         <div class="scroll-animate animate"></div>
                     </div>
-                    <Bookmark class="bookmark" style="color:#40c5dd;" />
+                    <Bookmark class="bookmark" style="color:#003cff;" />
                 </div>
             </li>
             <li>
@@ -134,7 +134,7 @@
 }
 
 .scroll-animate {
-    background: #3ed5f0;
+    background: #003cff;
     transform-origin: 50% 0;
     opacity: 0;
     position: absolute;
@@ -147,7 +147,7 @@
 
 @keyframes selected {
     0% { color: white; }
-    100% { color:#40c5dd; }
+    100% { color:#003cff; }
 }
 
 @keyframes grow-progress {
@@ -156,13 +156,13 @@
 }
 
 .scroll-animate.in-view {
-    animation: grow-progress 1.5s;
+    animation: grow-progress 1s;
     animation-fill-mode: forwards;
 }
 
 .bookmark.in-view {
-    animation: selected 0.5s;
-    animation-delay: 1s;
+    animation: selected 0.35s;
+    animation-delay: 0.75s;
     animation-fill-mode: forwards;
 }
 </style>
