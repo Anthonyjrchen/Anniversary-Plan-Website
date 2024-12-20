@@ -24,12 +24,12 @@
   position:fixed;
   min-width:100vw;
   min-height:100vh;
-  background-image: url('./assets/dimsumplace.jpg');
+  background-image: url('./assets/tunnelbluffs.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  opacity:0.5;
+  opacity:0.7;
   
 }
 
