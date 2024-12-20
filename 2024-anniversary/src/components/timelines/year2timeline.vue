@@ -6,7 +6,7 @@
     let observer
 
     console.log(useRoute().fullPath)
-    if (useRoute().fullPath=="/year1"){
+    if (useRoute().fullPath=="/year2"){
         setTimeout(init_observer,500)
     }
     // window.addEventListener("DOMContentLoaded",(event)=>{init_observer();},false);
@@ -32,7 +32,6 @@
                 } catch (error) {
                     console.log("Reached last node")
                 }
-                
                 return;
             }
 
@@ -44,7 +43,7 @@
     observer.observe(lastElement);
     allAnimatedElements.forEach((element) => observer.observe(element));
     console.log("initialized observer")
-    };    
+    };
 
 </script>
 <template>
@@ -150,6 +149,7 @@
                     <Bookmark class="bookmark" style="margin:0;" />
                 </div>
             </li>
+            
             <li>
                 <div class="timeline-start mb-14">
                     <div class="card glass w-196">
@@ -164,7 +164,7 @@
             <div class="modal-box">
                 <h3 class="text-lg font-bold" style="display:flex;justify-content: center;">You've reached the end.</h3>
                 <div class="button-wrap" style="display:flex; justify-content: center;margin-top:5px;">
-                    <div class="btn btn-error" onclick="my_modal1.close();" style="margin-right:10px;">
+                    <div class="btn btn-error" onclick="my_modal1.close()" style="margin-right:10px;">
                         Go back to timeline
                     </div>
                     <RouterLink class="btn btn-accent" to="/year2">Go to the next year</RouterLink>

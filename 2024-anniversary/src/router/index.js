@@ -28,6 +28,9 @@ const router = createRouter({
       component: Year3View,
     },
   ],
+  scrollBehavior (to, from, savedPosition) {
+    return { top:0 }
+  }
 })
 
 export default router
