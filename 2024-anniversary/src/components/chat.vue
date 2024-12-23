@@ -50,7 +50,7 @@ function done() {
         <Transition>
             <div class="chat chat-start" v-if="count>5">
                 <AntoPFP />
-                <div class="chat-bubble">I love you more than you can ever image my love</div>
+                <div class="chat-bubble">I love you more than you can ever imagine my love</div>
             </div>
         </Transition>
     </div>

@@ -50,7 +50,7 @@
     <div class="timelineWrap">
         <ul class="timeline timeline-snap-icon timeline-vertical"> 
             <li>
-                <Card date="23/12/2021" title="My Princess" msg="No way you really made me carry you on the FIRST day HAHAHAH" imgName="princesscarry-1.jpg" />
+                <Card date="27/12/2022" title="Lounge Gang" msg="My spidy senses tingled and saved us from missing our flight :) Still no one else i'd rather almost miss my flight with." imgName="27_12_2022.jpg" />
                 <div class="initial-wrap" style="margin: 30px;">
                     <div class="scroll-wrap">
                         <div class="scroll-base"></div>
@@ -60,7 +60,7 @@
                 </div>
             </li>
             <li>
-                <Card2 date="29/12/2021" title="My First Favourite Photo of Us" msg="You have no idea how nervous I was to hug you like this :3" imgName="sunpeaks.jpg" />
+                <Card2 date="06/01/2023" title="SHO PRETTY" msg="I had to slide this in beceause I couldn't get over how pretty you are even when you're not trying" imgName="06_01_2023.jpg" />
                 <div class="initial-wrap" style="margin: 30px;">
                     <div class="scroll-wrap">
                         <div class="scroll-base"></div>
@@ -70,7 +70,7 @@
                 </div>
             </li>
             <li>
-                <Card date="01/01/2022" title="Lil' Kiss Under the Mistletoe" msg="I can't lie, leading up to this point I was so nervous about kissing you. It was honestly the best kiss I have ever had <3 ALSO, I love how we are representing shorts gang here :D" imgName="undertree.jpg" />
+                <Card date="10/01/2023 " title="Back from Toronto..." msg="I still remember this so clearly. This was the period of time when we got back from Toronto and my skin was being awful all over again and I was in so much pain. You stuck by my side as usual and helped get me through it <3" imgName="10_01_2023.jpg" />
                 <div class="initial-wrap" style="margin: 30px;">
                     <div class="scroll-wrap">
                         <div class="scroll-base"></div>
@@ -80,7 +80,7 @@
                 </div>
             </li>
             <li>
-                <Card2 date="14/01/2022" title="My Jaw Touched the ground" msg="Do I even need to say anything..." imgName="mirror-selfie1.jpg" />
+                <Card2 date="14/02/2023" title="C-PRIME BABY" msg="Low-key you're the best dish in the resteraunt" imgName="14_02_2023.jpg" />
                 <div class="initial-wrap" style="margin: 30px;">
                     <div class="scroll-wrap">
                         <div class="scroll-base"></div>
@@ -90,7 +90,7 @@
                 </div>
             </li>
             <li>
-                <Card date="14/01/2022" title="Sleepover :D:D" msg="At this point in time so much was going wrong for me. I was in such a dark spot and really struggled with being happy but you made it so much easier and i'm forever grateful." imgName="mirror-selfie2.jpg" />
+                <Card date="18/02/2023" title="Granville Walk" msg="Two years together and a walk that long still flies by instantly." imgName="18_02_2023.jpg" />
                 <div class="initial-wrap" style="margin: 30px;">
                     <div class="scroll-wrap">
                         <div class="scroll-base"></div>
@@ -100,7 +100,7 @@
                 </div>
             </li>
             <li>
-                <Card2 date="21/01/2022" title="Ermmm" msg="I think you remember what we did here but also I think Ate for sure knew too HAHAHA" imgName="sofa-selfie.jpg" />
+                <Card2 date="22/02/2023" title="GOOSE CHASE" msg="Still the most Canadian thing I've ever done HAHAH" movName="goosechase.mov" isMovie="true" />
                 <div class="initial-wrap" style="margin: 30px;">
                     <div class="scroll-wrap">
                         <div class="scroll-base"></div>
@@ -110,7 +110,7 @@
                 </div>
             </li>
             <li>
-                <Card date="13/03/2022" title="Skiing, kind of" msg="To this day I cannot believe that we went all the way to grous to do one lap and then nap HAHA. Still, would never change a thing about it." imgName="grous.jpg" />
+                <Card date="02/03/2023" title="My cutie" msg="You have no idea how many of these photos I found while scrolling through my album love..." imgName="02_03_2023.jpg" />
                 <div class="initial-wrap" style="margin: 30px;">
                     <div class="scroll-wrap">
                         <div class="scroll-base"></div>
@@ -120,7 +120,7 @@
                 </div>
             </li>
             <li>
-                <Card2 date="02/04/2022" title="Seattle road nap HEHE" msg="So classic of us" imgName="seattleNap.jpg" />
+                <Card2 date="18/03/2023" title="Escape Room Carry" msg="I might just be the god of escape rooms... cough cough.." imgName="18_03_2023.jpg" />
                 <div class="initial-wrap" style="margin: 30px;">
                     <div class="scroll-wrap">
                         <div class="scroll-base"></div>
@@ -130,7 +130,7 @@
                 </div>
             </li>
             <li>
-                <Card date="08/04/2022" title="Most awkward yet cutest moment" msg="I never thought about this but it was 3 am when we took this... Why were we awake LOL. I can't believe how far we've gotten from this stage in our relationship." movName="3am.mov" isMovie="true"/>
+                <Card date="01/04/2023" title="Boat Party (1)" msg="You were the most stunning girl on that boat I promise <3" imgName="boatparty.jpg"/>
                 <div class="initial-wrap" style="margin: 30px;">
                     <div class="scroll-wrap">
                         <div class="scroll-base"></div>
@@ -140,7 +140,7 @@
                 </div>
             </li>
             <li>
-                <Card2 date="31/10/2022" title="SPOOKY SZN" msg="It was so fun to dress up with you for the first time." imgName="halloween2022.jpg" />
+                <Card2 date="01/04/2023" title="Boat Party (2)" msg="I actually was really self-conscious about dancing on the dance floor. But I just remembered that song and looked into your eyes and all my worries and fears disappeared." imgName="01_04_2023.jpg" />
                 <div class="initial-wrap" style="margin: 30px;">
                     <div class="scroll-wrap">
                         <div class="scroll-base"></div>
@@ -149,7 +149,105 @@
                     <Bookmark class="bookmark" style="margin:0;" />
                 </div>
             </li>
-            
+            <li>
+                <Card date="07/05/2023" title="MORNING ICECREAM" msg="I swear this was pretty much right before we got covid :(" imgName="07_05_2023.jpg" />
+                <div class="initial-wrap" style="margin: 30px;">
+                    <div class="scroll-wrap">
+                        <div class="scroll-base"></div>
+                        <div class="scroll-animate animate"></div>
+                    </div>
+                    <Bookmark class="bookmark" style="margin:0;" />
+                </div>
+            </li>
+            <li>
+                <Card2 date="18/05/2023" title="Dana Einstein" msg="Even those goggles can't save your myopia D:" imgName="18_05_2023.jpg" />
+                <div class="initial-wrap" style="margin: 30px;">
+                    <div class="scroll-wrap">
+                        <div class="scroll-base"></div>
+                        <div class="scroll-animate animate"></div>
+                    </div>
+                    <Bookmark class="bookmark" style="margin:0;" />
+                </div>
+            </li>
+            <li>
+                <Card date="21/05/2023" title="HOLY PEAK" msg="I love how this was supposed to be candid but you just starting dead into the camera HAHA" imgName="21_05_2023.jpg" />
+                <div class="initial-wrap" style="margin: 30px;">
+                    <div class="scroll-wrap">
+                        <div class="scroll-base"></div>
+                        <div class="scroll-animate animate"></div>
+                    </div>
+                    <Bookmark class="bookmark" style="margin:0;" />
+                </div>
+            </li>
+            <li>
+                <Card2 date="23/05/2023" title="Cheung Chau" msg="Let's just say that this was the only time we went Cheung Chau that summer.. cough..." imgName="cheungchauwater.jpg" />
+                <div class="initial-wrap" style="margin: 30px;">
+                    <div class="scroll-wrap">
+                        <div class="scroll-base"></div>
+                        <div class="scroll-animate animate"></div>
+                    </div>
+                    <Bookmark class="bookmark" style="margin:0;" />
+                </div>
+            </li>
+            <li>
+                <Card date="05/09/2023" title="On Top of the World" msg="That hike was a memory I will never forget.. We should go on more love!" imgName="tunnelbluffs.jpg" />
+                <div class="initial-wrap" style="margin: 30px;">
+                    <div class="scroll-wrap">
+                        <div class="scroll-base"></div>
+                        <div class="scroll-animate animate"></div>
+                    </div>
+                    <Bookmark class="bookmark" style="margin:0;" />
+                </div>
+            </li>
+            <li>
+                <Card2 date="06/09/2023" title="Supra" msg="Can't wait for the day that you're my passenger princess in my supra" imgName="06_09_2023.jpg" />
+                <div class="initial-wrap" style="margin: 30px;">
+                    <div class="scroll-wrap">
+                        <div class="scroll-base"></div>
+                        <div class="scroll-animate animate"></div>
+                    </div>
+                    <Bookmark class="bookmark" style="margin:0;" />
+                </div>
+            </li>
+            <li>
+                <Card date="10/09/2023" title="Universal Studios" msg="You are still the best part of the LA trip." imgName="10_09_2023.jpg" />
+                <div class="initial-wrap" style="margin: 30px;">
+                    <div class="scroll-wrap">
+                        <div class="scroll-base"></div>
+                        <div class="scroll-animate animate"></div>
+                    </div>
+                    <Bookmark class="bookmark" style="margin:0;" />
+                </div>
+            </li>
+            <li>
+                <Card2 date="10/11/2023" title="CELEBRITIES" msg="Many a group were bumped into that day LOLLL" imgName="10_11_2023.jpg" />
+                <div class="initial-wrap" style="margin: 30px;">
+                    <div class="scroll-wrap">
+                        <div class="scroll-base"></div>
+                        <div class="scroll-animate animate"></div>
+                    </div>
+                    <Bookmark class="bookmark" style="margin:0;" />
+                </div>
+            </li><li>
+                <Card date="01/12/2023" title="Whistla" msg="Ski? No... Work? No... Gym and swim :)" imgName="01_12_2023.jpg" />
+                <div class="initial-wrap" style="margin: 30px;">
+                    <div class="scroll-wrap">
+                        <div class="scroll-base"></div>
+                        <div class="scroll-animate animate"></div>
+                    </div>
+                    <Bookmark class="bookmark" style="margin:0;" />
+                </div>
+            </li>
+            <li>
+                <Card2 date="21/12/2023" title="Happy Two Year Anniversary" msg="Two years of matching my freak <3" imgName="21_12_2023.jpg" />
+                <div class="initial-wrap" style="margin: 30px;">
+                    <div class="scroll-wrap">
+                        <div class="scroll-base"></div>
+                        <div class="scroll-animate animate"></div>
+                    </div>
+                    <Bookmark class="bookmark" style="margin:0;" />
+                </div>
+            </li>
             <li>
                 <div class="timeline-start mb-14">
                     <div class="card glass w-196">
@@ -162,7 +260,7 @@
         </ul>
         <dialog id="my_modal1" class="modal">
             <div class="modal-box">
-                <h3 class="text-lg font-bold" style="display:flex;justify-content: center;">You've reached the end.</h3>
+                <h3 class="text-lg font-bold" style="display:flex;justify-content: center;">You've reached the end of this year.</h3>
                 <div class="button-wrap" style="display:flex; justify-content: center;margin-top:5px;">
                     <div class="btn btn-error" onclick="my_modal1.close()" style="margin-right:10px;">
                         Go back to timeline

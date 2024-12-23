@@ -162,7 +162,7 @@
         </ul>
         <dialog id="my_modal1" class="modal">
             <div class="modal-box">
-                <h3 class="text-lg font-bold" style="display:flex;justify-content: center;">You've reached the end.</h3>
+                <h3 class="text-lg font-bold" style="display:flex;justify-content: center;">You've reached the end this year.</h3>
                 <div class="button-wrap" style="display:flex; justify-content: center;margin-top:5px;">
                     <div class="btn btn-error" onclick="my_modal1.close();" style="margin-right:10px;">
                         Go back to timeline

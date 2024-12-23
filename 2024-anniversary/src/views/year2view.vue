@@ -1,7 +1,18 @@
 <script setup>
-import Board from '../components/timelines/year2timeline.vue'
+import Timeline from '../components/timelines/year2timeline.vue'
 </script>
-
 <template>
-  <Board />
+  <div class="timeline">
+    <Timeline />
+  </div>
+   
 </template>
+
+<style scoped>
+.timeline {
+  margin: 40px;
+  color:white;
+  display: flex;
+  justify-content: center;
+}
+</style>
