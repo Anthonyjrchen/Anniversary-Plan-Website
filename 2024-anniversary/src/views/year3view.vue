@@ -1,9 +1,9 @@
 <script setup>
-// import Timeline from '../components/timelines/year3timeline.vue'
+import Timeline from '../components/timelines/year3timeline.vue'
 </script>
 <template>
   <div class="timeline">
-    <!-- <Timeline /> -->
+    <Timeline />
   </div>
    
 </template>

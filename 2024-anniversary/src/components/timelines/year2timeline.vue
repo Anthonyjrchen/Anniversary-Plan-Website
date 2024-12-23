@@ -70,7 +70,7 @@
                 </div>
             </li>
             <li>
-                <Card date="10/01/2023 " title="Back from Toronto..." msg="I still remember this so clearly. This was the period of time when we got back from Toronto and my skin was being awful all over again and I was in so much pain. You stuck by my side as usual and helped get me through it <3" imgName="10_01_2023.jpg" />
+                <Card date="10/01/2023" title="Back from Toronto..." msg="I still remember this so clearly. This was the period of time when we got back from Toronto and my skin was being awful all over again and I was in so much pain. You stuck by my side as usual and helped get me through it <3" imgName="10_01_2023.jpg" />
                 <div class="initial-wrap" style="margin: 30px;">
                     <div class="scroll-wrap">
                         <div class="scroll-base"></div>
@@ -265,7 +265,7 @@
                     <div class="btn btn-error" onclick="my_modal1.close()" style="margin-right:10px;">
                         Go back to timeline
                     </div>
-                    <RouterLink class="btn btn-accent" to="/year2">Go to the next year</RouterLink>
+                    <RouterLink class="btn btn-accent" to="/year3">Go to the next year</RouterLink>
                 </div>
             </div>
         </dialog>

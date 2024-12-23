@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import Year1View from '../views/year1view.vue'
 import Year2View from '../views/year2view.vue'
 import Year3View from '../views/year3view.vue'
+import endView from '../views/endView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -26,6 +27,11 @@ const router = createRouter({
       path: '/year3',
       name: 'year_3',
       component: Year3View,
+    },
+    {
+      path: '/end',
+      name: 'end',
+      component: endView,
     },
   ],
   scrollBehavior (to, from, savedPosition) {
