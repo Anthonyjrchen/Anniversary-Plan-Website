@@ -61,7 +61,7 @@
                 </div>
             </li>
             <li>
-                <Card2 date="29/12/2021" title="My First Favourite Photo of Us" msg="You have no idea how nervous I was to hug you like this :3" imgName="sunpeaks.jpg" />
+                <Card date="29/12/2021" title="My First Favourite Photo of Us" msg="You have no idea how nervous I was to hug you like this :3" imgName="princesscarry-1.jpg" />
                 <div class="initial-wrap" style="margin: 30px;">
                     <div class="scroll-wrap">
                         <div class="scroll-base"></div>
