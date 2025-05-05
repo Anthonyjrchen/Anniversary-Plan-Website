@@ -31,7 +31,7 @@
         </div>
     </div>
     <Transition>
-        <div class="timeline-start mb-14 md:text-end" v-if="!this.isMovie">
+        <div class="timeline-start mb-14 md:text-end" v-if="!props.isMovie">
             <img :src="getImageUrl()" class="rounded-3xl h-100 w-80" style="margin-top:40px;">
         </div>
     </Transition>
